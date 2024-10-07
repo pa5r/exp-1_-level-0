@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    int net,original;
+    int tax,gst;
+    scanf("%d%d",&net,&original);
+    printf("enter the net and original:%d%d\n",net,original);
+    tax=net- original;
+    gst=tax*original/100;
+    printf("gst:%d",gst);
+
+    return 0;
+}
